@@ -78,10 +78,6 @@ class GamesViewController: UIViewController {
                 
                 if visible {
                     
-                    if self.refreshControl.isRefreshing {
-                        self.refreshControl.endRefreshing()
-                    }
-                    
                     var message = Constants.Messages.youAreOffline
                     
                     if let updateDate = DatabaseHelper.shared.getLastUpdateDate() {
@@ -104,6 +100,10 @@ class GamesViewController: UIViewController {
         viewModel.fetchGames {
             
             DispatchQueue.main.async {
+                
+                if self.refreshControl.isRefreshing {
+                    self.refreshControl.endRefreshing()
+                }
                 
                 self.viewModel.getLimitedGames()
                 

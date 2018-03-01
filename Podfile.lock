@@ -4,7 +4,6 @@ PODS:
   - Nimble (7.0.3)
   - ObjectMapper (3.1.0)
   - PKHUD (5.0.0)
-  - PureLayout (3.0.2)
   - Quick (1.2.0)
 
 DEPENDENCIES:
@@ -13,7 +12,6 @@ DEPENDENCIES:
   - Nimble
   - ObjectMapper
   - PKHUD (~> 5.0)
-  - PureLayout
   - Quick
 
 SPEC CHECKSUMS:
@@ -22,9 +20,8 @@ SPEC CHECKSUMS:
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
   ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
   PKHUD: 3c001512c6e002091184197a8de7a20420786e3b
-  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
 
-PODFILE CHECKSUM: e9f48a99137ecc8a9a1cef8f308c060a998a49f5
+PODFILE CHECKSUM: 18d796d11695b4bef40aabe35c1293431262937e
 
 COCOAPODS: 1.4.0

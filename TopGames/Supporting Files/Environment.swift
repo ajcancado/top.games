@@ -1,9 +1,9 @@
 //
 //  Environment.swift
-//  VivaChallenge
+//  TopGames
 //
-//  Created by Arthur Junqueira Cançado on 23/03/17.
-//  Copyright © 2017 Arthur Cancado. All rights reserved.
+//  Created by Arthur Junqueira Cançado on 28/02/2018.
+//  Copyright © 2018 Arthur Junqueira Cançado. All rights reserved.
 //
 
 import UIKit

@@ -8,7 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2491333909AFD7D7AECF9CFF /* Pods_TopGames.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6221E31108669324E092D381 /* Pods_TopGames.framework */; };
-		2FD2D4D64D555366E191C604 /* Pods_TopGamesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB78C76BC0BDF210ADE3D8C1 /* Pods_TopGamesTests.framework */; };
+		2E8F3F56750236D3B38490BB /* Pods_TopGamesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB78C76BC0BDF210ADE3D8C1 /* Pods_TopGamesTests.framework */; };
+		8E0F51C52048623500419451 /* DatabaseHelperTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0F51C12048623500419451 /* DatabaseHelperTest.swift */; };
+		8E0F51C62048623500419451 /* GameTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0F51C32048623500419451 /* GameTest.swift */; };
+		8E0F51C72048623500419451 /* content.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E0F51C42048623500419451 /* content.json */; };
 		8EA977AF20485095008C9AB6 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA977AE20485095008C9AB6 /* Date+Extensions.swift */; };
 		8EA977B1204852BE008C9AB6 /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA977B0204852BE008C9AB6 /* DatabaseHelper.swift */; };
 		8EECE9E82046E07C006BF837 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EECE9E72046E07C006BF837 /* AppDelegate.swift */; };
@@ -16,7 +19,6 @@
 		8EECE9F02046E07C006BF837 /* TopGames.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EECE9EE2046E07C006BF837 /* TopGames.xcdatamodeld */; };
 		8EECE9F22046E07C006BF837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EECE9F12046E07C006BF837 /* Assets.xcassets */; };
 		8EECE9F52046E07C006BF837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EECE9F32046E07C006BF837 /* LaunchScreen.storyboard */; };
-		8EECEA002046E07C006BF837 /* TopGamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EECE9FF2046E07C006BF837 /* TopGamesTests.swift */; };
 		8EECEA332046E206006BF837 /* GamesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EECEA0D2046E205006BF837 /* GamesService.swift */; };
 		8EECEA342046E206006BF837 /* GamesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EECEA0E2046E205006BF837 /* GamesViewModel.swift */; };
 		8EECEA352046E206006BF837 /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EECEA0F2046E205006BF837 /* GamesViewController.swift */; };
@@ -33,7 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8EECE9FC2046E07C006BF837 /* PBXContainerItemProxy */ = {
+		8E0F51BA2048621300419451 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8EECE9DC2046E07C006BF837 /* Project object */;
 			proxyType = 1;
@@ -44,6 +46,11 @@
 
 /* Begin PBXFileReference section */
 		6221E31108669324E092D381 /* Pods_TopGames.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopGames.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0F51B52048621300419451 /* TopGamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopGamesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0F51B92048621300419451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E0F51C12048623500419451 /* DatabaseHelperTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseHelperTest.swift; sourceTree = "<group>"; };
+		8E0F51C32048623500419451 /* GameTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTest.swift; sourceTree = "<group>"; };
+		8E0F51C42048623500419451 /* content.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = content.json; sourceTree = "<group>"; };
 		8EA977AE20485095008C9AB6 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		8EA977B0204852BE008C9AB6 /* DatabaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
 		8EECE9E42046E07C006BF837 /* TopGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,9 +60,6 @@
 		8EECE9F12046E07C006BF837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EECE9F42046E07C006BF837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EECE9F62046E07C006BF837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8EECE9FB2046E07C006BF837 /* TopGamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopGamesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EECE9FF2046E07C006BF837 /* TopGamesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGamesTests.swift; sourceTree = "<group>"; };
-		8EECEA012046E07C006BF837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EECEA0D2046E205006BF837 /* GamesService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesService.swift; sourceTree = "<group>"; };
 		8EECEA0E2046E205006BF837 /* GamesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesViewModel.swift; sourceTree = "<group>"; };
 		8EECEA0F2046E205006BF837 /* GamesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
@@ -77,19 +81,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8E0F51B22048621300419451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8F3F56750236D3B38490BB /* Pods_TopGamesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8EECE9E12046E07C006BF837 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2491333909AFD7D7AECF9CFF /* Pods_TopGames.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8EECE9F82046E07C006BF837 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2FD2D4D64D555366E191C604 /* Pods_TopGamesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,11 +109,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8E0F51B62048621300419451 /* TopGamesTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E0F51C42048623500419451 /* content.json */,
+				8E0F51C02048623500419451 /* Helpers */,
+				8E0F51C22048623500419451 /* Models */,
+				8E0F51B92048621300419451 /* Info.plist */,
+			);
+			path = TopGamesTests;
+			sourceTree = "<group>";
+		};
+		8E0F51C02048623500419451 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8E0F51C12048623500419451 /* DatabaseHelperTest.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8E0F51C22048623500419451 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E0F51C32048623500419451 /* GameTest.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		8EECE9DB2046E07C006BF837 = {
 			isa = PBXGroup;
 			children = (
 				8EECE9E62046E07C006BF837 /* TopGames */,
-				8EECE9FE2046E07C006BF837 /* TopGamesTests */,
+				8E0F51B62048621300419451 /* TopGamesTests */,
 				8EECE9E52046E07C006BF837 /* Products */,
 				9368959444546B23323CBA03 /* Pods */,
 				71639E764B3A83CEAC203B31 /* Frameworks */,
@@ -120,7 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				8EECE9E42046E07C006BF837 /* TopGames.app */,
-				8EECE9FB2046E07C006BF837 /* TopGamesTests.xctest */,
+				8E0F51B52048621300419451 /* TopGamesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,15 +170,6 @@
 				8EECEA0A2046E1F2006BF837 /* Supporting Files */,
 			);
 			path = TopGames;
-			sourceTree = "<group>";
-		};
-		8EECE9FE2046E07C006BF837 /* TopGamesTests */ = {
-			isa = PBXGroup;
-			children = (
-				8EECE9FF2046E07C006BF837 /* TopGamesTests.swift */,
-				8EECEA012046E07C006BF837 /* Info.plist */,
-			);
-			path = TopGamesTests;
 			sourceTree = "<group>";
 		};
 		8EECEA0A2046E1F2006BF837 /* Supporting Files */ = {
@@ -248,6 +270,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8E0F51B42048621300419451 /* TopGamesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E0F51BC2048621300419451 /* Build configuration list for PBXNativeTarget "TopGamesTests" */;
+			buildPhases = (
+				58BCB8B95E8B316837462E63 /* [CP] Check Pods Manifest.lock */,
+				8E0F51B12048621300419451 /* Sources */,
+				8E0F51B22048621300419451 /* Frameworks */,
+				8E0F51B32048621300419451 /* Resources */,
+				A67E66AC3C5595741A32C701 /* [CP] Embed Pods Frameworks */,
+				1C8F971BFE7A21568818094C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E0F51BB2048621300419451 /* PBXTargetDependency */,
+			);
+			name = TopGamesTests;
+			productName = TopGamesTests;
+			productReference = 8E0F51B52048621300419451 /* TopGamesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		8EECE9E32046E07C006BF837 /* TopGames */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EECEA042046E07C006BF837 /* Build configuration list for PBXNativeTarget "TopGames" */;
@@ -268,27 +311,6 @@
 			productReference = 8EECE9E42046E07C006BF837 /* TopGames.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8EECE9FA2046E07C006BF837 /* TopGamesTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8EECEA072046E07C006BF837 /* Build configuration list for PBXNativeTarget "TopGamesTests" */;
-			buildPhases = (
-				77714814B8435345370FFF3A /* [CP] Check Pods Manifest.lock */,
-				8EECE9F72046E07C006BF837 /* Sources */,
-				8EECE9F82046E07C006BF837 /* Frameworks */,
-				8EECE9F92046E07C006BF837 /* Resources */,
-				5D4588C8C93B1689811B4E00 /* [CP] Embed Pods Frameworks */,
-				72E354AB832FC64026B2FA90 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8EECE9FD2046E07C006BF837 /* PBXTargetDependency */,
-			);
-			name = TopGamesTests;
-			productName = TopGamesTests;
-			productReference = 8EECE9FB2046E07C006BF837 /* TopGamesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -299,14 +321,14 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Arthur Junqueira Cançado";
 				TargetAttributes = {
-					8EECE9E32046E07C006BF837 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-					};
-					8EECE9FA2046E07C006BF837 = {
+					8E0F51B42048621300419451 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 8EECE9E32046E07C006BF837;
+					};
+					8EECE9E32046E07C006BF837 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -324,12 +346,20 @@
 			projectRoot = "";
 			targets = (
 				8EECE9E32046E07C006BF837 /* TopGames */,
-				8EECE9FA2046E07C006BF837 /* TopGamesTests */,
+				8E0F51B42048621300419451 /* TopGamesTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8E0F51B32048621300419451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0F51C72048623500419451 /* content.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8EECE9E22046E07C006BF837 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -341,16 +371,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EECE9F92046E07C006BF837 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1C8F971BFE7A21568818094C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TopGamesTests/Pods-TopGamesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		36889F69D6533408FA85FA92 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -362,7 +400,6 @@
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -370,11 +407,28 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TopGames/Pods-TopGames-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58BCB8B95E8B316837462E63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TopGamesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5A22341E34EC3E1757B3D338 /* [CP] Copy Pods Resources */ = {
@@ -392,7 +446,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TopGames/Pods-TopGames-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5D4588C8C93B1689811B4E00 /* [CP] Embed Pods Frameworks */ = {
+		A67E66AC3C5595741A32C701 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -403,7 +457,6 @@
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 			);
@@ -413,46 +466,12 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TopGamesTests/Pods-TopGamesTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		72E354AB832FC64026B2FA90 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TopGamesTests/Pods-TopGamesTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		77714814B8435345370FFF3A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TopGamesTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C22EB6A0C3E6E8D49857ED18 /* [CP] Check Pods Manifest.lock */ = {
@@ -476,6 +495,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8E0F51B12048621300419451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0F51C52048623500419451 /* DatabaseHelperTest.swift in Sources */,
+				8E0F51C62048623500419451 /* GameTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8EECE9E02046E07C006BF837 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -499,21 +527,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EECE9F72046E07C006BF837 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8EECEA002046E07C006BF837 /* TopGamesTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8EECE9FD2046E07C006BF837 /* PBXTargetDependency */ = {
+		8E0F51BB2048621300419451 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8EECE9E32046E07C006BF837 /* TopGames */;
-			targetProxy = 8EECE9FC2046E07C006BF837 /* PBXContainerItemProxy */;
+			targetProxy = 8E0F51BA2048621300419451 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -537,6 +557,40 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8E0F51BD2048621300419451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F72CE32798404CA103627A52 /* Pods-TopGamesTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TopGamesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.arthurcancado.TopGamesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopGames.app/TopGames";
+			};
+			name = Debug;
+		};
+		8E0F51BE2048621300419451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC99228FCAAD80822B7BEC9 /* Pods-TopGamesTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TopGamesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.arthurcancado.TopGamesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopGames.app/TopGames";
+			};
+			name = Release;
+		};
 		8EECEA022046E07C006BF837 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -585,7 +639,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -636,7 +690,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -652,6 +706,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7A9TU7VF47;
 				INFOPLIST_FILE = "$(SRCROOT)/TopGames/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.arthurcancado.TopGames;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -668,6 +723,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7A9TU7VF47;
 				INFOPLIST_FILE = "$(SRCROOT)/TopGames/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.arthurcancado.TopGames;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -676,43 +732,18 @@
 			};
 			name = Release;
 		};
-		8EECEA082046E07C006BF837 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F72CE32798404CA103627A52 /* Pods-TopGamesTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TopGamesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.arthurcancado.TopGamesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopGames.app/TopGames";
-			};
-			name = Debug;
-		};
-		8EECEA092046E07C006BF837 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CC99228FCAAD80822B7BEC9 /* Pods-TopGamesTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TopGamesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.arthurcancado.TopGamesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopGames.app/TopGames";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8E0F51BC2048621300419451 /* Build configuration list for PBXNativeTarget "TopGamesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E0F51BD2048621300419451 /* Debug */,
+				8E0F51BE2048621300419451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8EECE9DF2046E07C006BF837 /* Build configuration list for PBXProject "TopGames" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -727,15 +758,6 @@
 			buildConfigurations = (
 				8EECEA052046E07C006BF837 /* Debug */,
 				8EECEA062046E07C006BF837 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8EECEA072046E07C006BF837 /* Build configuration list for PBXNativeTarget "TopGamesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8EECEA082046E07C006BF837 /* Debug */,
-				8EECEA092046E07C006BF837 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

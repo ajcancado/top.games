@@ -14,6 +14,15 @@ DEPENDENCIES:
   - PKHUD (~> 5.0)
   - Quick
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Kingfisher
+    - Nimble
+    - ObjectMapper
+    - PKHUD
+    - Quick
+
 SPEC CHECKSUMS:
   Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
   Kingfisher: 55b9c395bf8d3949676ad3861111923990ab68cf
@@ -24,4 +33,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 18d796d11695b4bef40aabe35c1293431262937e
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3

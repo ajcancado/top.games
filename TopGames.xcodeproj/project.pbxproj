@@ -279,7 +279,6 @@
 				8E0F51B22048621300419451 /* Frameworks */,
 				8E0F51B32048621300419451 /* Resources */,
 				A67E66AC3C5595741A32C701 /* [CP] Embed Pods Frameworks */,
-				1C8F971BFE7A21568818094C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -300,7 +299,6 @@
 				8EECE9E12046E07C006BF837 /* Frameworks */,
 				8EECE9E22046E07C006BF837 /* Resources */,
 				36889F69D6533408FA85FA92 /* [CP] Embed Pods Frameworks */,
-				5A22341E34EC3E1757B3D338 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -374,21 +372,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1C8F971BFE7A21568818094C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TopGamesTests/Pods-TopGamesTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		36889F69D6533408FA85FA92 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -429,21 +412,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5A22341E34EC3E1757B3D338 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TopGames/Pods-TopGames-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A67E66AC3C5595741A32C701 /* [CP] Embed Pods Frameworks */ = {
